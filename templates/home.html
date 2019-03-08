@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>omers supper cool shop</title>
+	<title>omer's supper cool shop</title>
 	<link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
 </head>
 <body>
+	<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <p>Omers store</p>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"> <a href="{{url_for('shop_page')}}">Go to Shop</a></li>
+      <!-- <li><a href="#">Link</a></li> -->
+      <!-- <li><a href="#">Link</a></li> -->
+    </ul>
+    <button class="btn btn-danger navbar-btn">0</button>
+  </div>
+</nav>
 
-	<p> omer</p>
+	<h3> Welcome to omer's super cool shop!</h3>
+	<p>we sell stationery decaices, as:</p>
+	<li> pens</li>
+	<li>earasers</li>
+	<li>markers </li>
+	<p>to buy our supllies, go to our shop, using the nav-bar</p>
 </body>
 </html>

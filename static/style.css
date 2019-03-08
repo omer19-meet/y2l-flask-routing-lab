@@ -1,7 +1,10 @@
 /* Put your CSS Styling here! */
 body {
     background-color: powderblue;
-}
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;	
+  }
 h1 {
     color: blue;
 }
@@ -13,3 +16,6 @@ p {
 	margin: 50px;
 	text-align: center;
 }
+
+li { margin: 2%
+ }
